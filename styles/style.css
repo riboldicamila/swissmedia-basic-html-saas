@@ -159,7 +159,6 @@ a{
 
 .design-container{
     padding: 40px;
-    flex-direction: column;
     width: 400px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -173,7 +172,7 @@ a{
 .design-container iframe{
     padding: 50px;
 }
-
+S
 .design-items{
     padding: 10px;
 }
