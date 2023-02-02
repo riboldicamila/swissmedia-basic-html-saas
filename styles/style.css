@@ -1,0 +1,309 @@
+/* Colours 
+https://coolors.co/palette/102542-f87060-cdd7d6-b3a394-ffffff
+
+#102542, #f87060, #cdd7d6, #b3a394, #ffffff
+
+#463e36
+#8d406a
+#131e2e blue
+
+mobile mirar iphone x
+
+cuatro section con GRID
+cada section, ej body organizarlo, se usa flexbox
+
+se suele usar boostramp para grillas
+
+
+*/
+
+
+/*Initial reset*/
+*{
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+body{
+    background-color: #f8f8f7;
+    text-align: justify;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: #463e36;
+    color:white;
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    text-transform: uppercase;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color:#ad6d90;
+    border-radius: 5px;
+}
+
+
+.navbar img{
+    width: 195px;
+    height: auto;
+    position: relative;
+    right: 100px;
+}
+
+
+
+
+/*Home card*/
+
+.home-card{
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(206, 191, 194, 0.2);
+    
+}
+
+
+.home-card p{
+ margin-top: 30px;
+ margin-bottom: 30px;
+ width: 300px;
+}
+
+
+.home-card img{
+    width: 75%;
+    height: auto;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+.home-card .btn{
+    width: 150px;
+
+}
+
+/* Technologies */
+
+.title{
+    padding: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tech-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+    padding-top: 30px;
+}
+
+.tech-card{
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    background-color:  rgba(172, 131, 143, 0.2) ;
+    margin-top: 20px;
+}
+
+.tech-card p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.tech-card h2{
+    margin-bottom: 8px;
+}
+
+.tech-card img{
+    width: 130px;
+    height: auto;
+    padding: 30px;
+
+}
+
+/*Design*/
+
+.design-container{
+    padding: 40px;
+    flex-direction: column;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.design-container .btn{
+    width: 280px;
+}
+
+.design-container iframe{
+    padding: 50px;
+}
+
+.design-items{
+    padding: 10px;
+}
+
+
+
+/*Merch*/
+
+.merch-cards-container{
+    margin-left: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.merch-card{
+    width: 300px;
+    height: 300px;
+}
+
+.merch-card img:hover{
+    opacity: 0.8;
+    border: solid #102542;
+}
+
+/*Events*/
+
+.event-container{
+    text-align: center;
+}
+
+.events-card-container{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.event-card{
+    width: 400px;
+    height: 400px;
+}
+
+.event-card img{
+    width: 400px;
+    object-fit: cover;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.date{
+    margin-top: 20px;
+    background-color: #463e36;
+    border-color: #463e36;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.date:hover{
+    cursor: pointer;
+    background-color: #463e36;
+}
+
+/*Footer*/
+
+.footer-container{
+    background-color: #101720;
+    color:white;
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.footer-container p{
+    justify-content: flex-start;
+}
+.footer-nav ul {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.footer-nav a{
+    text-decoration: none;
+}
+
+/*Buttons*/
+
+.btn{
+    font-size: 14px;
+    font-weight: 520;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1.5px solid #101720;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(202, 79, 79, 0);
+}
+
+.btn:after{
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(245, 239, 182, 0.808);
+    border: 2px solid #101720;
+}
+
+
+
+
+
+
+
