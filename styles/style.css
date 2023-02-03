@@ -130,27 +130,38 @@ a{
 }
 
 .tech-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.8fr;
+    grid-template-areas: "title title" "p p" "link picture";
     padding: 30px;
     width: 300px;
-    height: 400px;
+    height: 360px;
     background-color:  rgba(172, 131, 143, 0.2) ;
     margin-top: 20px;
 }
 
 .tech-card p{
+    grid-area: p;
     font-size: 14px;
     margin-bottom: 8px;
 }
 
 .tech-card h2{
     margin-bottom: 8px;
+    grid-area: title;
+}
+
+.tech-card a{
+    grid-area: link;
+    align-self: center;
 }
 
 .tech-card img{
-    width: 130px;
+    width: 115px;
     height: auto;
-    padding: 30px;
-
+    grid-area: picture;
+    align-self: center;
 }
 
 /*Design*/
