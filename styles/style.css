@@ -75,8 +75,6 @@ img{
 }
 
 
-
-
 /*Home card*/
 
 .home-card{
@@ -159,25 +157,43 @@ a{
 
 .design-container{
     padding: 40px;
-    width: 400px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 1fr 2fr 5fr;
+    grid-template-areas: 
+    "title title" 
+    "subtitle video"
+    "items video"
+    "buttom buttom";
+    column-gap: 50px;
+}
+
+.design-title{
+    padding: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    grid-area: title;
+}
+
+.design-subtitle{
+    grid-area: subtitle;
 }
 
 .design-container .btn{
     width: 280px;
+    height: 70px;
+    grid-area: buttom;
 }
 
 .design-container iframe{
-    padding: 50px;
+    grid-area: video;
+    /* padding: 50px; */
 }
-S
+
 .design-items{
+    grid-area: items;
     padding: 10px;
 }
-
-
 
 /*Merch*/
 
