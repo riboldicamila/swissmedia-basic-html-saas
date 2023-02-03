@@ -137,7 +137,7 @@ a{
     padding: 30px;
     width: 300px;
     height: 360px;
-    background-color:  rgba(172, 131, 143, 0.2) ;
+    background-color: rgba(206, 191, 194, 0.2);
     margin-top: 20px;
 }
 
@@ -277,28 +277,55 @@ a{
 .footer-container{
     background-color: #101720;
     color:white;
-    display: flex;
-    flex-direction: row; /*default*/
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.08fr;
+    grid-template-areas: "logo nav" "p p";
+}
+
+.logo {
+    grid-area: logo;
+    align-self: center;
+    justify-self: center;
+}
+
+.footer-logo{
+    padding-top: 20px;
+    width: 170px;
+    height: auto;
+}
+
+.footer-nav{
+    grid-area: nav;
+    align-self: center;
+    justify-self: center;
 }
 
 .footer-container p{
-    justify-content: flex-start;
+    grid-area: p;
+    align-self: start;
+    justify-self: end;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 12px;
 }
-.footer-nav ul {
-    list-style-type: none;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 200;
+.footer-nav li{
+    display: inline;
 }
 
 .footer-nav a{
     text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 520;
 }
+
+.footer-nav a:hover{
+    cursor: pointer;
+    background-color:rgba(253, 239, 106, 0.808);;
+    border-radius: 5px;
+}
+
 
 /*Buttons*/
 
