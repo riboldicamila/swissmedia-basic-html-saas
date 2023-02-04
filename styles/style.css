@@ -17,6 +17,8 @@ se suele usar boostramp para grillas
 body{
     background-color: #f8f8f7;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
@@ -83,10 +85,29 @@ img{
     align-items: flex-start;
     width: 800px;
     height: 500px;
-    background-color: rgba(206, 191, 194, 0.2);
-    
+    background-color: rgba(206, 191, 194, 0.2);   
 }
 
+.news-card{
+    padding: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: auto;
+    height: 500px;
+    background-color: rgba(245, 239, 182, 0.808);   
+
+}
+
+.news-card .btn{
+    background-color: rgba(206, 191, 194, 0.2);
+}
+
+.news-card .btn:after{
+    background-color:rgb(88, 83, 32)
+}
 
 .home-card p{
  margin-top: 30px;
@@ -147,6 +168,10 @@ a{
     grid-area: link;
     align-self: center;
     color: #101720;
+}
+
+.tech-card a:hover{
+    color: darkblue;
 }
 
 .tech-card img{
@@ -316,7 +341,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.1fr 0.08fr;
-    grid-template-areas: "logo nav" "p p";
+    grid-template-areas: "logo nav" "social p";
 }
 
 .logo {
@@ -336,6 +361,13 @@ a{
     align-self: center;
     justify-self: center;
 }
+
+.social{
+    grid-area: social;
+    align-self: center;
+    justify-self: center;
+}
+
 
 .footer-container p{
     grid-area: p;
