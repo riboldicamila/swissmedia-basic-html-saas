@@ -248,6 +248,10 @@ a{
     margin: 50px;
 }
 
+.merch-container h1{
+    border-bottom: solid #101720;
+}
+
 .merch-cards-container{
     margin-left: 100px;
     padding: 40px;
