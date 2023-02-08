@@ -92,7 +92,8 @@ img{
     align-items: flex-start;
     width: auto;
     height: 500px;
-    background-color: rgba(245, 239, 182, 0.808);   
+    background-color: rgba(245, 239, 182, 0.808); 
+    font-weight: 500;  
 
 }
 
@@ -123,7 +124,6 @@ a{
 
 .home-card .btn{
     width: 150px;
-
 }
 
 /* Technologies */
@@ -270,8 +270,9 @@ a{
 }
 
 .merch-card img:hover{
-    opacity: 0.8;
+    opacity: 0.6;
     border: solid #102542;
+
 }
 
 /*Events*/
@@ -343,6 +344,10 @@ a{
 
 .secound-date{
     grid-area: secound-date;
+}
+
+.event-container img:hover{
+    opacity: 0.5;
 }
 
 
@@ -439,7 +444,6 @@ a{
     background-color: rgba(245, 239, 182, 0.808);
     border: 2px solid #101720;
 }
-
 
 
 
