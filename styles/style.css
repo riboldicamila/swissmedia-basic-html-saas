@@ -28,6 +28,8 @@ img{
     background-color: #ffe54c;
 }
 
+/*....*/
+
 /*Navbar*/
 
 .navbar{
@@ -67,7 +69,7 @@ img{
     right: 100px;
 }
 
-
+/*....*/
 
 /*Home card*/
 
@@ -125,6 +127,7 @@ a{
 .home-card .btn{
     width: 150px;
 }
+/*....*/
 
 /* Technologies */
 
@@ -190,6 +193,7 @@ a{
     transform: scale(1.02);
 }
 
+/*....*/
 
 /*Design*/
 
@@ -241,6 +245,11 @@ a{
     align-self: center;
 }
 
+/*Designers*/
+
+
+/*....*/
+
 /*Merch*/
 
 .merch-container{
@@ -253,27 +262,31 @@ a{
 }
 
 .merch-cards-container{
-    margin-left: 100px;
     padding: 40px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-
-.merch-card p{
-    width: 200px;
-} 
 
 .merch-card{
     width: 300px;
     height: 300px;
+    text-align:center;
 }
+
+.merch-card p{
+    width: 200px;
+    margin: 0 auto;
+} 
+
 
 .merch-card img:hover{
     opacity: 0.6;
     border: solid #102542;
 
 }
+
+/*....*/
 
 /*Events*/
 
@@ -349,6 +362,8 @@ a{
 .event-container img:hover{
     opacity: 0.5;
 }
+
+/*....*/
 
 
 /*Footer*/
