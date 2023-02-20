@@ -31,8 +31,6 @@ a {
   color: white;
 }
 
-/*....*/
-
 /*Navbar*/
 
 .custum-navbar {
@@ -72,7 +70,7 @@ a {
 }
 
 .custum-navbar img {
-  width: 195px;
+  width: 160px;
   height: auto;
   position: relative;
   right: 100px;
@@ -380,6 +378,28 @@ a {
   opacity: 0.5;
 }
 
+#event-title {
+  padding: 40px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffe54c;
+  font-family: "Noto Sans Display", sans-serif;
+  width: 100%;
+  font-weight: 600;
+  margin: 0;
+}
+
+#event-title-col {
+  margin: 0;
+  background-color: #ffe54c;
+}
+
+.card {
+  margin: 20px;
+  align-items: center;
+}
+
 /*....*/
 
 /*Footer*/
@@ -474,5 +494,52 @@ a {
   .event-container {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 2.5fr;
+  }
+}
+
+@media (max-width: 730px) {
+  .custum-navbar {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custum-navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custum-navbar li {
+    margin: 3px;
+  }
+
+  .custum-navbar img {
+    position: initial;
+    width: 140px;
+    margin-bottom: 10px;
+  }
+
+  .footer-container {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 390px) {
+  .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    font-size: 1em;
+  }
+
+  .footer-nav li {
+    border: none;
+    margin: 3px;
+  }
+
+  .footer-nav a {
+    padding: 2px;
   }
 }
