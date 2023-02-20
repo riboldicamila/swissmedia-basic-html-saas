@@ -25,6 +25,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   background-color: #ffe54c;
+  font-weight: 600;
 }
 
 a {
@@ -215,6 +216,15 @@ a {
 
 .tech-card img:hover {
   transform: scale(1.02);
+}
+
+#tech-title-col {
+  margin: 0;
+  background-color: #ffe54c;
+}
+
+#tech-footer {
+  margin-top: 50px;
 }
 
 /*....*/
@@ -540,6 +550,13 @@ a {
     height: 270px;
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .tech-card img {
+    width: 90px;
+    object-fit: contain;
   }
 }
 
