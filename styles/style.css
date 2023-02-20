@@ -56,12 +56,14 @@ a {
   padding: 10px;
   font-size: 16px;
   font-weight: 520;
+  color: white;
 }
 
 .custum-navbar a:hover {
   cursor: pointer;
   background-color: rgba(253, 239, 106, 0.808);
   border-radius: 5px;
+  color: white;
 }
 
 .custum-navbar img {
@@ -334,18 +336,8 @@ a {
 .event-container {
   margin: 50px;
   padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.4fr 2.5fr 0.6fr 0.3fr;
-  justify-content: center;
-  align-items: center;
   column-gap: 10px;
-  grid-template-areas: "title title" "first-img secound-img" "p secound-p" "date secound-date";
   background-color: rgba(206, 191, 194, 0.2);
-}
-
-.event-title {
-  grid-area: title;
 }
 
 .event-container img {
@@ -353,27 +345,11 @@ a {
   object-fit: cover;
 }
 
-.first-img {
-  grid-area: first-img;
-  justify-self: center;
-  align-self: center;
-}
-
-.secound-img {
-  grid-area: secound-img;
-  justify-self: center;
-  align-self: center;
-}
-
 .p {
-  grid-area: p;
-  justify-self: center;
   width: 350px;
 }
 
 .secound-p {
-  grid-area: "secound-p";
-  justify-self: center;
   width: 350px;
 }
 
@@ -385,19 +361,13 @@ a {
   font-weight: 550;
   border-radius: 5px;
   padding: 5px;
-  grid-area: date;
   width: 200px;
-  justify-self: center;
 }
 
 .date:hover {
   cursor: pointer;
   background-color: #101720;
   border: 2px solid #101720;
-}
-
-.secound-date {
-  grid-area: secound-date;
 }
 
 .event-container img:hover {
@@ -436,12 +406,14 @@ a {
   padding: 10px;
   font-size: 16px;
   font-weight: 520;
+  color: white;
 }
 
 .footer-nav a:hover {
   cursor: pointer;
   background-color: rgba(253, 239, 106, 0.808);
   border-radius: 5px;
+  color: white;
 }
 
 .social a {
