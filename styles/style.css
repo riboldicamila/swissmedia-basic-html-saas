@@ -51,6 +51,11 @@ a {
   display: inline;
 }
 
+.custum-navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
 .custum-navbar a {
   text-decoration: none;
   padding: 10px;
@@ -338,6 +343,7 @@ a {
   padding-bottom: 50px;
   column-gap: 10px;
   background-color: rgba(206, 191, 194, 0.2);
+  font-family: "Noto Sans Display", sans-serif;
 }
 
 .event-container img {
@@ -407,6 +413,16 @@ a {
   font-size: 16px;
   font-weight: 520;
   color: white;
+}
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container p {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-nav a:hover {
