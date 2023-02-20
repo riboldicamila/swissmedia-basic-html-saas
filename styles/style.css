@@ -379,49 +379,26 @@ a {
 /*Footer*/
 
 .footer-container {
-  background-color: #101720;
+  background-color: #090d11;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr 0.08fr;
-  grid-template-areas: "logo nav" "social p";
+  display: flex;
+  justify-content: space-around;
   padding: 20px;
-}
-
-.logo {
-  grid-area: logo;
-  align-self: center;
-  justify-self: center;
-}
-
-.footer-logo {
-  padding-top: 20px;
-  width: 170px;
-  height: auto;
-}
-
-.footer-nav {
-  grid-area: nav;
-  align-self: center;
-  justify-self: center;
-}
-
-.social {
-  grid-area: social;
-  align-self: center;
-  justify-self: center;
+  align-items: center;
+  height: 100px;
 }
 
 .footer-container p {
-  grid-area: p;
-  align-self: start;
-  justify-self: end;
-  padding-right: 10px;
-  padding-bottom: 20px;
   font-size: 12px;
 }
+
 .footer-nav li {
   display: inline;
+  border-left: solid #d4c257cb 3px;
+}
+
+#nav-no-bar {
+  border-left: none;
 }
 
 .footer-nav a {
@@ -435,6 +412,10 @@ a {
   cursor: pointer;
   background-color: rgba(253, 239, 106, 0.808);
   border-radius: 5px;
+}
+
+.social a {
+  padding-left: 7px;
 }
 
 /*Buttons*/
