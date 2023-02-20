@@ -396,8 +396,20 @@ a {
 }
 
 .card {
-  margin: 20px;
+  margin: 50px;
   align-items: center;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #d3c784;
+  border-color: #ffe54c;
+  font-weight: 400;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /*....*/
@@ -458,7 +470,7 @@ a {
 
 /*Buttons*/
 
-.btn {
+.custom-btn {
   font-size: 14px;
   font-weight: 520;
   letter-spacing: 0.5px;
@@ -470,7 +482,7 @@ a {
   background-color: rgba(202, 79, 79, 0);
 }
 
-.btn:after {
+.custom-btn:after {
   content: "";
   background-color: #ffe54c;
   width: 100%;
@@ -482,7 +494,7 @@ a {
   transition: 0.2s;
 }
 
-.btn:hover {
+.custom-btn:hover {
   cursor: pointer;
   background-color: rgba(245, 239, 182, 0.808);
   border: 2px solid #101720;
