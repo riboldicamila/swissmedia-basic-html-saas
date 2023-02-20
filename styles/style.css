@@ -412,6 +412,11 @@ a {
   margin-left: 25%;
 }
 
+.btn-primary:hover {
+  background-color: #090d11;
+  border-color: #090d11;
+}
+
 /*....*/
 
 /*Footer*/
