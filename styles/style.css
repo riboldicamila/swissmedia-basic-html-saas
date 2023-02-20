@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f8f8f7;
+  background-color: #eeeedff1;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -78,8 +78,6 @@ a {
 /* Container holding the image and the text */
 .container {
   margin-top: 2%;
-  margin-bottom: 2%;
-  /* position: relative; */
   color: white;
   overflow: hidden;
   background-image: url("/images/coverimage3.png");
@@ -91,6 +89,11 @@ a {
   height: 500px;
 }
 
+#secound-container {
+  background-image: url("/images/home-cover.jpg");
+  margin-bottom: 2%;
+}
+
 .text-container {
   width: 60%;
   margin-left: 10%;
@@ -98,12 +101,12 @@ a {
   border: solid 5px #ffe44ce5;
   padding: 5px;
   background-color: #c5c0a69d;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .cover-title {
   padding: 20px;
   padding-bottom: 8px;
-  background-color: #ffe44c86;
+  background-color: #e9d98b86;
   font-weight: 600;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -111,7 +114,34 @@ a {
 
 .cover-text {
   padding: 20px;
-  background-color: #ffe44c86;
+  background-color: #e9d98b86;
+  font-weight: 400;
+}
+
+.secound-text-container {
+  width: 40%;
+  height: 85%;
+  margin-left: 55%;
+  margin-top: 2%;
+  border: solid 5px #ffe44ce5;
+  padding: 5px;
+  background-color: #c5c0a69d;
+  font-size: 1rem;
+}
+
+.secound-cover-title {
+  padding: 20px;
+  padding-bottom: 8px;
+  background-color: #e9d98b86;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.secound-cover-text {
+  padding: 20px;
+  background-color: #e9d98b86;
+  height: 85%;
   font-weight: 400;
 }
 
