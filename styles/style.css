@@ -35,7 +35,7 @@ a {
 
 /*Navbar*/
 
-.navbar {
+.custum-navbar {
   background-color: #101720;
   color: white;
   display: flex;
@@ -47,24 +47,24 @@ a {
   text-transform: uppercase;
 }
 
-.navbar li {
+.custum-navbar li {
   display: inline;
 }
 
-.navbar a {
+.custum-navbar a {
   text-decoration: none;
   padding: 10px;
   font-size: 16px;
   font-weight: 520;
 }
 
-.navbar a:hover {
+.custum-navbar a:hover {
   cursor: pointer;
   background-color: rgba(253, 239, 106, 0.808);
   border-radius: 5px;
 }
 
-.navbar img {
+.custum-navbar img {
   width: 195px;
   height: auto;
   position: relative;
@@ -385,6 +385,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.1fr 0.08fr;
   grid-template-areas: "logo nav" "social p";
+  padding: 20px;
 }
 
 .logo {
