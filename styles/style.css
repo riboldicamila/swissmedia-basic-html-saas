@@ -245,6 +245,7 @@ a {
   column-gap: 50px;
   align-content: center;
   background-color: rgba(206, 191, 194, 0.2);
+  overflow: hidden; 
 }
 
 .design-title {
