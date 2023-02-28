@@ -1,0 +1,71 @@
+.tech-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+  padding-top: 30px;
+}
+
+.tech-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.8fr;
+  grid-template-areas: "title title" "p p" "link picture";
+  padding: 30px;
+  width: 300px;
+  height: 360px;
+  background-color: rgba(206, 191, 194, 0.2);
+  margin-top: 20px;
+  transition: transform 0.6s;
+  box-sizing: content-box;
+
+  &hover {
+    transform: scale(1.03);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(90, 89, 81, 0.808);
+  }
+
+  p {
+    grid-area: p;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    grid-area: title;
+  }
+
+  a {
+    grid-area: link;
+    align-self: center;
+    color: #101720;
+
+    &hover {
+      color: darkblue;
+      font-weight: 600;
+    }
+  }
+
+  img {
+    width: 115px;
+    height: auto;
+    grid-area: picture;
+    align-self: center;
+    transition: transform 0.2s;
+
+    &hover {
+      transform: scale(1.02);
+    }
+  }
+}
+
+#tech-title-col {
+  margin: 0;
+  background-color: #ffe54c;
+}
+
+#tech-footer {
+  margin-top: 50px;
+}

@@ -1,18 +1,21 @@
 @import "header";
 @import "footer";
 @import "buttons";
-
+@import "../pages/design";
+@import "../pages/events";
+@import "../pages/shop";
+@import "../pages/technologies";
 
 /* Creating and Using Variables */
 
 $fonts: "Noto Sans Display", sans-serif;
 
 $colors: (
-    primary-yellow-color: #ffe54c,
-    secondary-blackish-color: #101720,
-  );
+  primary-yellow-color: #ffe54c,
+  secondary-blackish-color: #101720,
+);
 
-  body {
+body {
   background-color: #eeeedff1;
   text-align: justify;
   display: flex;

@@ -88,6 +88,102 @@ footer {
     background-color: rgba(245, 239, 182, 0.808);
     border: 2px solid #101720; }
 
+section h1 {
+  grid-area: title;
+  align-self: center; }
+
+section .btn {
+  width: 180px;
+  height: 80px;
+  grid-area: buttom;
+  justify-self: center; }
+
+section .video {
+  grid-area: video;
+  justify-self: center;
+  align-self: center; }
+
+section .design-items {
+  grid-area: items;
+  padding-left: 50px;
+  justify-self: center;
+  align-self: center; }
+
+.shop-container {
+  background-color: rgba(206, 191, 194, 0.2);
+  margin: 50px; }
+  .shop-container h1 {
+    border-bottom: solid #101720; }
+
+.shop-cards-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.shop-card {
+  width: 300px;
+  height: 300px;
+  text-align: center; }
+  .shop-card p {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px; }
+
+.tech-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+  padding-top: 30px; }
+
+.tech-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.8fr;
+  grid-template-areas: "title title" "p p" "link picture";
+  padding: 30px;
+  width: 300px;
+  height: 360px;
+  background-color: rgba(206, 191, 194, 0.2);
+  margin-top: 20px;
+  transition: transform 0.6s;
+  box-sizing: content-box; }
+  .tech-cardhover {
+    transform: scale(1.03);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(90, 89, 81, 0.808); }
+  .tech-card p {
+    grid-area: p;
+    font-size: 14px;
+    margin-bottom: 8px; }
+  .tech-card h2 {
+    margin-bottom: 8px;
+    grid-area: title; }
+  .tech-card a {
+    grid-area: link;
+    align-self: center;
+    color: #101720; }
+    .tech-card ahover {
+      color: darkblue;
+      font-weight: 600; }
+  .tech-card img {
+    width: 115px;
+    height: auto;
+    grid-area: picture;
+    align-self: center;
+    transition: transform 0.2s; }
+    .tech-card imghover {
+      transform: scale(1.02); }
+
+#tech-title-col {
+  margin: 0;
+  background-color: #ffe54c; }
+
+#tech-footer {
+  margin-top: 50px; }
+
 /* Creating and Using Variables */
 body {
   background-color: #eeeedff1;
