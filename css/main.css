@@ -1,0 +1,109 @@
+header {
+  background-color: #101720;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /*default*/
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  text-transform: uppercase; }
+  header ul {
+    margin: 0;
+    padding: 0; }
+    header ul li {
+      display: inline; }
+      header ul li a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 520;
+        color: white; }
+        header ul li ahover {
+          cursor: pointer;
+          background-color: rgba(253, 239, 106, 0.808);
+          border-radius: 5px;
+          color: white; }
+  header img {
+    width: 160px;
+    height: auto;
+    position: relative;
+    right: 100px; }
+
+footer {
+  background-color: #090d11;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  height: 100px; }
+  footer p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      display: inline;
+      border-left: solid #d4c257cb 3px; }
+      footer ul li a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 520;
+        color: white; }
+        footer ul li ahover {
+          cursor: pointer;
+          background-color: rgba(253, 239, 106, 0.808);
+          border-radius: 5px;
+          color: white; }
+  footer .social a {
+    padding-left: 7px; }
+
+.custom-btn {
+  font-size: 14px;
+  font-weight: 520;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 15px;
+  border: 1.5px solid #101720;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(202, 79, 79, 0); }
+  .custom-btnafter {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .custom-btnhover {
+    cursor: pointer;
+    background-color: rgba(245, 239, 182, 0.808);
+    border: 2px solid #101720; }
+
+/* Creating and Using Variables */
+body {
+  background-color: #eeeedff1;
+  text-align: justify;
+  display: flex;
+  flex-direction: column; }
+  body img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; }
+  body .title {
+    padding: 40px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffe54c;
+    font-weight: 600; }
+  body a {
+    color: white; }

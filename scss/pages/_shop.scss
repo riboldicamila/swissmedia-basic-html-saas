@@ -1,0 +1,27 @@
+.shop-container {
+  background-color: rgba(206, 191, 194, 0.2);
+  margin: 50px;
+
+  h1 {
+    border-bottom: solid #101720;
+  }
+}
+
+.shop-cards-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop-card {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+
+  p {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+section {
+  h1 {
+    grid-area: title;
+    align-self: center;
+  }
+
+  .btn {
+    width: 180px;
+    height: 80px;
+    grid-area: buttom;
+    justify-self: center;
+  }
+
+  .video {
+    grid-area: video;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .design-items {
+    grid-area: items;
+    padding-left: 50px;
+    justify-self: center;
+    align-self: center;
+  }
+}

@@ -1,0 +1,42 @@
+footer {
+  background-color: #090d11;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  height: 100px;
+
+  p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      border-left: solid #d4c257cb 3px;
+      a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 520;
+        color: white;
+
+        &hover {
+          cursor: pointer;
+          background-color: rgba(253, 239, 106, 0.808);
+          border-radius: 5px;
+          color: white;
+        }
+      }
+    }
+  }
+  .social a {
+    padding-left: 7px;
+  }
+}

@@ -1,0 +1,39 @@
+@import "header";
+@import "footer";
+@import "buttons";
+
+
+/* Creating and Using Variables */
+
+$fonts: "Noto Sans Display", sans-serif;
+
+$colors: (
+    primary-yellow-color: #ffe54c,
+    secondary-blackish-color: #101720,
+  );
+
+  body {
+  background-color: #eeeedff1;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .title {
+    padding: 40px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffe54c;
+    font-weight: 600;
+  }
+
+  a {
+    color: white;
+  }
+}
