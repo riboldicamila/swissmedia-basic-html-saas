@@ -1,0 +1,72 @@
+.event-container {
+  margin: 50px;
+  padding-bottom: 50px;
+  column-gap: 10px;
+  background-color: rgba(206, 191, 194, 0.2);
+  font-family: "Noto Sans Display", sans-serif;
+
+  img {
+    width: 400px;
+    object-fit: cover;
+
+    &hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.date {
+  margin-top: 20px;
+  background-color: #b9af71;
+  border-color: #b9af71;
+  color: white;
+  font-weight: 550;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+
+  &hover {
+    cursor: pointer;
+    background-color: #101720;
+    border: 2px solid #101720;
+  }
+}
+
+#event-title {
+  padding: 40px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffe54c;
+  font-family: "Noto Sans Display", sans-serif;
+  width: 100%;
+  font-weight: 600;
+  margin: 0;
+}
+
+#event-title-col {
+  margin: 0;
+  background-color: #ffe54c;
+}
+
+.card {
+  margin: 50px;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #d3c784;
+  border-color: #ffe54c;
+  font-weight: 400;
+  width: 50%;
+  margin-left: 25%;
+
+  &hover {
+    background-color: #090d11;
+    border-color: #090d11;
+  }
+}
