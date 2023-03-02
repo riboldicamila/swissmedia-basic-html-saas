@@ -1,3 +1,7 @@
+$container-yellow: #ffe44ce5;
+$washed-yellow-bg:#e9d98b86;
+
+
 .container {
     margin-top: 2%;
     color: white;
@@ -20,7 +24,7 @@
     width: 60%;
     margin-left: 10%;
     margin-top: 8%;
-    border: solid 5px #ffe44ce5;
+    border: solid 5px $container-yellow;
     padding: 5px;
     background-color: #c5c0a69d;
     font-size: 1rem;
@@ -28,7 +32,7 @@
   .cover-title {
     padding: 20px;
     padding-bottom: 8px;
-    background-color: #e9d98b86;
+    background-color: $washed-yellow-bg;
     font-weight: 600;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -36,7 +40,7 @@
   
   .cover-text {
     padding: 20px;
-    background-color: #e9d98b86;
+    background-color: $washed-yellow-bg;
     font-weight: 400;
   }
   
@@ -45,7 +49,7 @@
     height: 85%;
     margin-left: 55%;
     margin-top: 2%;
-    border: solid 5px #ffe44ce5;
+    border: solid 5px $container-yellow;
     padding: 5px;
     background-color: #c5c0a69d;
     font-size: 1rem;
@@ -54,7 +58,7 @@
   .secound-cover-title {
     padding: 20px;
     padding-bottom: 8px;
-    background-color: #e9d98b86;
+    background-color: $washed-yellow-bg;
     font-weight: 600;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -62,7 +66,7 @@
   
   .secound-cover-text {
     padding: 20px;
-    background-color: #e9d98b86;
+    background-color: $washed-yellow-bg;
     height: 85%;
     font-weight: 400;
   }

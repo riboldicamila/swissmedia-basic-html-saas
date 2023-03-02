@@ -1,5 +1,7 @@
-footer {
-  background-color: #090d11;
+@import "customVariables";
+
+.footer-container {
+  background-color: $secondary-blackish-color;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -12,31 +14,35 @@ footer {
     margin: 0;
     padding: 0;
   }
+}
 
-  ul {
-    margin: 0;
-    padding: 0;
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+    border-left: solid $secondary-soft-yellow-color 3px;
+    a {
+      text-decoration: none;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 520;
+      color: white;
 
-    li {
-      display: inline;
-      border-left: solid #d4c257cb 3px;
-      a {
-        text-decoration: none;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 520;
+      &:hover {
+        cursor: pointer;
+        background-color: $secondary-soft-yellow-color;
+        border-radius: 5px;
         color: white;
-
-        &hover {
-          cursor: pointer;
-          background-color: rgba(253, 239, 106, 0.808);
-          border-radius: 5px;
-          color: white;
-        }
       }
     }
   }
-  .social a {
-    padding-left: 7px;
-  }
+}
+
+#nav-no-bar {
+  border-left: none;
+}
+
+.social a {
+  padding-left: 7px;
 }

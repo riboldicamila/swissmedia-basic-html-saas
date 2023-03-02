@@ -1,5 +1,7 @@
+@import "customVariables";
+
 .custum-navbar {
-  background-color: #101720;
+  background-color: $secondary-blackish-color;
   color: white;
   display: flex;
   flex-direction: row; /*default*/
@@ -23,9 +25,9 @@
         font-weight: 520;
         color: white;
 
-        &hover {
+        &:hover {
           cursor: pointer;
-          background-color: rgba(253, 239, 106, 0.808);
+          background-color: $secondary-soft-yellow-color;
           border-radius: 5px;
           color: white;
         }

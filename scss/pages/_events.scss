@@ -1,9 +1,11 @@
+@import "../general/customVariables";
+
 .event-container {
   margin: 50px;
   padding-bottom: 50px;
   column-gap: 10px;
   background-color: rgba(206, 191, 194, 0.2);
-  font-family: "Noto Sans Display", sans-serif;
+  font-family: $main-font;
 
   img {
     width: 400px;
@@ -27,8 +29,8 @@
 
   &hover {
     cursor: pointer;
-    background-color: #101720;
-    border: 2px solid #101720;
+    background-color: $secondary-blackish-color;
+    border: 2px solid $secondary-blackish-color;
   }
 }
 
@@ -37,8 +39,8 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center;
-  background-color: #ffe54c;
-  font-family: "Noto Sans Display", sans-serif;
+  background-color: $primary-yellow-color;
+  font-family: $main-font;
   width: 100%;
   font-weight: 600;
   margin: 0;
@@ -46,7 +48,7 @@
 
 #event-title-col {
   margin: 0;
-  background-color: #ffe54c;
+  background-color: $primary-yellow-color;
 }
 
 .card {
@@ -60,7 +62,7 @@
 
 .btn-primary {
   background-color: #d3c784;
-  border-color: #ffe54c;
+  border-color: $primary-yellow-color;
   font-weight: 400;
   width: 50%;
   margin-left: 25%;

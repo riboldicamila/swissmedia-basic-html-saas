@@ -20,7 +20,7 @@
         font-size: 16px;
         font-weight: 520;
         color: white; }
-        .custum-navbar ul li ahover {
+        .custum-navbar ul li a:hover {
           cursor: pointer;
           background-color: rgba(253, 239, 106, 0.808);
           border-radius: 5px;
@@ -31,37 +31,42 @@
     position: relative;
     right: 100px; }
 
-footer {
-  background-color: #090d11;
+.footer-container {
+  background-color: #101720;
   color: white;
   display: flex;
   justify-content: space-around;
   padding: 20px;
   align-items: center;
   height: 100px; }
-  footer p {
+  .footer-container p {
     font-size: 12px;
     margin: 0;
     padding: 0; }
-  footer ul {
-    margin: 0;
-    padding: 0; }
-    footer ul li {
-      display: inline;
-      border-left: solid #d4c257cb 3px; }
-      footer ul li a {
-        text-decoration: none;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 520;
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0; }
+  .footer-nav ul li {
+    display: inline;
+    border-left: solid rgba(253, 239, 106, 0.808) 3px; }
+    .footer-nav ul li a {
+      text-decoration: none;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 520;
+      color: white; }
+      .footer-nav ul li a:hover {
+        cursor: pointer;
+        background-color: rgba(253, 239, 106, 0.808);
+        border-radius: 5px;
         color: white; }
-        footer ul li ahover {
-          cursor: pointer;
-          background-color: rgba(253, 239, 106, 0.808);
-          border-radius: 5px;
-          color: white; }
-  footer .social a {
-    padding-left: 7px; }
+
+#nav-no-bar {
+  border-left: none; }
+
+.social a {
+  padding-left: 7px; }
 
 .custom-btn {
   font-size: 14px;
@@ -73,7 +78,7 @@ footer {
   cursor: pointer;
   position: relative;
   background-color: rgba(202, 79, 79, 0); }
-  .custom-btnafter {
+  .custom-btn:after {
     content: "";
     background-color: #ffe54c;
     width: 100%;
@@ -83,7 +88,7 @@ footer {
     top: 7px;
     left: 7px;
     transition: 0.2s; }
-  .custom-btnhover {
+  .custom-btn:hover {
     cursor: pointer;
     background-color: rgba(245, 239, 182, 0.808);
     border: 2px solid #101720; }
@@ -150,22 +155,39 @@ footer {
   height: 85%;
   font-weight: 400; }
 
-section h1 {
+.design-container {
+  margin: 50px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 80px 100px 200px 80px;
+  grid-template-areas: "title title" "subtitle subtitle" "items video" "buttom video";
+  column-gap: 50px;
+  align-content: center;
+  background-color: rgba(206, 191, 194, 0.2);
+  overflow: hidden; }
+  .design-container .btn {
+    width: 180px;
+    height: 80px;
+    grid-area: buttom;
+    justify-self: center; }
+
+.design-title {
   grid-area: title;
   align-self: center; }
 
-section .btn {
-  width: 180px;
-  height: 80px;
-  grid-area: buttom;
-  justify-self: center; }
+.design-subtitle {
+  grid-area: subtitle;
+  justify-self: start;
+  align-self: end;
+  padding-left: 50px; }
 
-section .video {
+.video {
   grid-area: video;
   justify-self: center;
   align-self: center; }
 
-section .design-items {
+.design-items {
   grid-area: items;
   padding-left: 50px;
   justify-self: center;
@@ -250,6 +272,32 @@ section .design-items {
     margin: 0 auto;
     margin-top: 10px; }
 
+.img-wrap {
+  position: relative;
+  margin: 0 auto;
+  height: 200px;
+  width: 257px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px; }
+
+.img-description {
+  position: absolute;
+  top: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(54, 54, 51, 0.9);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-weight: 520; }
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1; }
+
 .tech-cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +352,12 @@ section .design-items {
 #tech-footer {
   margin-top: 50px; }
 
-/* Creating and Using Variables */
+* {
+  margin: 0;
+  font-family: "Noto Sans Display", sans-serif;
+  padding: 0px;
+  box-sizing: border-box; }
+
 body {
   background-color: #eeeedff1;
   text-align: justify;

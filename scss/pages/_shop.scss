@@ -1,9 +1,11 @@
+@import "../general/customVariables";
+
 .shop-container {
   background-color: rgba(206, 191, 194, 0.2);
   margin: 50px;
 
   h1 {
-    border-bottom: solid #101720;
+    border-bottom: solid $secondary-blackish-color;
   }
 }
 
@@ -24,4 +26,33 @@
     margin: 0 auto;
     margin-top: 10px;
   }
+}
+
+.img-wrap {
+  position: relative;
+  margin: 0 auto;
+  height: 200px;
+  width: 257px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+.img-description {
+  position: absolute;
+  top: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(54, 54, 51, 0.9);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-weight: 520;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
 }

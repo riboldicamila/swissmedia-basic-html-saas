@@ -1,17 +1,19 @@
+@import "customVariables";
+
 .custom-btn {
   font-size: 14px;
   font-weight: 520;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   padding: 15px;
-  border: 1.5px solid #101720;
+  border: 1.5px solid $secondary-blackish-color;
   cursor: pointer;
   position: relative;
   background-color: rgba(202, 79, 79, 0);
 
-  &after {
+  &:after {
     content: "";
-    background-color: #ffe54c;
+    background-color: $primary-yellow-color;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -21,9 +23,9 @@
     transition: 0.2s;
   }
 
-  &hover {
+  &:hover {
     cursor: pointer;
     background-color: rgba(245, 239, 182, 0.808);
-    border: 2px solid #101720;
+    border: 2px solid $secondary-blackish-color;
   }
 }
