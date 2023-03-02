@@ -21,7 +21,7 @@
   transition: transform 0.6s;
   box-sizing: content-box;
 
-  &hover {
+  &:hover {
     transform: scale(1.03);
     border-style: solid;
     border-width: 2px;
@@ -44,7 +44,7 @@
     align-self: center;
     color: $secondary-blackish-color;
 
-    &hover {
+    &:hover {
       color: darkblue;
       font-weight: 600;
     }
