@@ -214,7 +214,7 @@
   border-radius: 5px;
   padding: 5px;
   width: 200px; }
-  .datehover {
+  .date:hover {
     cursor: pointer;
     background-color: #101720;
     border: 2px solid #101720; }
@@ -247,7 +247,7 @@
   font-weight: 400;
   width: 50%;
   margin-left: 25%; }
-  .btn-primaryhover {
+  .btn-primary:hover {
     background-color: #090d11;
     border-color: #090d11; }
 
