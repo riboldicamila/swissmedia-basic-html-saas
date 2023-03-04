@@ -1,5 +1,7 @@
 @import "../general/customVariables";
 
+$btn-yellow: #d3c784;
+
 .event-container {
   margin: 50px;
   padding-bottom: 50px;
@@ -61,8 +63,8 @@
 }
 
 .btn-primary {
-  background-color: #d3c784;
-  border-color: $primary-yellow-color;
+  background-color: $btn-yellow;
+  border-color: $btn-yellow;
   font-weight: 400;
   width: 50%;
   margin-left: 25%;

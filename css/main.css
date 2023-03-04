@@ -168,40 +168,8 @@
 .design-container {
   margin: 50px;
   padding-bottom: 60px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 80px 100px 200px 80px;
-  grid-template-areas: "title title" "subtitle subtitle" "items video" "buttom video";
-  column-gap: 50px;
-  align-content: center;
   background-color: rgba(206, 191, 194, 0.2);
   overflow: hidden; }
-  .design-container .btn {
-    width: 180px;
-    height: 80px;
-    grid-area: buttom;
-    justify-self: center; }
-
-.design-title {
-  grid-area: title;
-  align-self: center; }
-
-.design-subtitle {
-  grid-area: subtitle;
-  justify-self: start;
-  align-self: end;
-  padding-left: 50px; }
-
-.video {
-  grid-area: video;
-  justify-self: center;
-  align-self: center; }
-
-.design-items {
-  grid-area: items;
-  padding-left: 50px;
-  justify-self: center;
-  align-self: center; }
 
 .event-container {
   margin: 50px;
@@ -253,7 +221,7 @@
 
 .btn-primary {
   background-color: #d3c784;
-  border-color: #ffe54c;
+  border-color: #d3c784;
   font-weight: 400;
   width: 50%;
   margin-left: 25%; }
