@@ -22,7 +22,7 @@
         color: white; }
         .custum-navbar ul li a:hover {
           cursor: pointer;
-          background-color: rgba(253, 239, 106, 0.808);
+          background-color: rgba(148, 148, 148, 0.521);
           border-radius: 5px;
           color: white; }
   .custum-navbar img {
@@ -53,6 +53,7 @@
     .footer-nav ul li a {
       text-decoration: none;
       padding: 10px;
+      margin-left: 2px;
       font-size: 16px;
       font-weight: 520;
       color: white; }
