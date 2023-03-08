@@ -232,8 +232,8 @@
   background-color: #d3c784;
   border-color: #d3c784;
   font-weight: 400;
-  width: 50%;
-  margin-left: 25%; }
+  margin-top: 15px;
+  width: 75%; }
   .btn-primary:hover {
     background-color: #101720;
     border-color: #101720; }
@@ -300,7 +300,7 @@
   padding: 30px;
   width: 300px;
   height: 360px;
-  background-color: rgba(206, 191, 194, 0.2);
+  background-color: rgba(116, 103, 106, 0.219);
   margin-top: 20px;
   transition: transform 0.6s;
   box-sizing: content-box; }
