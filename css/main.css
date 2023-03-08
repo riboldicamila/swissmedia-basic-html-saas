@@ -171,6 +171,15 @@
   background-color: rgba(206, 191, 194, 0.2);
   overflow: hidden; }
 
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 25px; }
+
+.card-body {
+  text-align: center; }
+
 .event-container {
   margin: 50px;
   padding-bottom: 50px;
