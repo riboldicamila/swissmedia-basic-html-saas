@@ -324,6 +324,9 @@
     .tech-card imghover {
       transform: scale(1.02); }
 
+.row {
+  margin-bottom: 50px; }
+
 #tech-title-col {
   margin: 0;
   background-color: #ffe54c; }
