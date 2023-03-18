@@ -1,87 +1,79 @@
 /*Media Queries*/
 
 @media (max-width: 800px) {
-    .event-container {
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.4fr 2.5fr;
-    }
+  .event-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2.5fr;
   }
-  
-  
-  @media (max-width: 730px) {
-    .custum-navbar {
-      height: 270px;
+}
+
+@media (max-width: 730px) {
+  .custum-navbar {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+
+    ul {
       display: flex;
       flex-direction: column;
-  
-      ul {
-        display: flex;
-        flex-direction: column;
-        li {
-          margin: 3px;
-        }
-      }
-  
-      img {
-        position: initial;
-        width: 140px;
-        margin-bottom: 10px;
-      }
-    }
-  
-    .footer-container {
-      height: 270px;
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-  @media (max-width: 450px) {
-    .tech-card img {
-      width: 90px;
-      object-fit: contain;
-    }
-  }
-  
-  @media (max-width: 390px) {
-    .footer-nav ul {
-      display: flex;
-      flex-direction: column;
-      margin: 4px;
-      font-size: 1em;
-  
       li {
-        border: none;
         margin: 3px;
-  
-        a {
-          padding: 2px;
-        }
       }
+    }
+
+    img {
+      position: initial;
+      width: 140px;
+      margin-bottom: 10px;
     }
   }
 
-  /*Home*/
-  
-  @media (max-width: 1100px) {
-    .secound-text-container {
-      width: 100%;
-      height: 100%;
-      margin: auto;
+  .footer-container {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .tech-card img {
+    width: 90px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 390px) {
+  .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    font-size: 1em;
+
+    li {
+      border: none;
+      margin: 3px;
+
+      a {
+        padding: 2px;
+      }
     }
   }
-  
-  @media (max-width: 490px) {
-    .text-container {
-      width: 100%;
-      margin: auto;
-      margin-top: 15%;
-    }
-  
-    .secound-text-container {
-      width: 100%;
-      height: 100%;
-      margin: auto;
-    }
+}
+
+/*Home*/
+
+@media (max-width: 1106px) {
+  .secound-text-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
   }
-  
+}
+
+@media (max-width: 490px) {
+  .text-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 15%;
+  }
+}
