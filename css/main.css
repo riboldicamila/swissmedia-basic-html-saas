@@ -236,17 +236,17 @@
   .shop-container h1 {
     border-bottom: solid #101720; }
 
-.shop-cards-container {
+.general-cards-container {
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.shop-card {
+.hover-card {
   width: 300px;
   height: 300px;
   text-align: center; }
-  .shop-card p {
+  .hover-card p {
     width: 200px;
     margin: 0 auto;
     margin-top: 10px; }
