@@ -5,7 +5,7 @@
 In this project you will find:
 - A website using html and css, where I played around with saas, flexbox and general frontend concepts.
 - To obtain this product I did wireframes and thought how every tab/page would look like.
-
+- Deployed at  https://riboldicamila.github.io/swissmedia-basic-html-saas/ (git Pages)
 
 
 | Libraries & Technologies being used |
@@ -13,4 +13,8 @@ In this project you will find:
 | HTML                              |
 | CSS                            |
 | Saas                         |
-| Sweetalert2                         |
+| Bootstrap                         |
+| GoogleFonts                         |
+| Animate.css                         |
+
+
