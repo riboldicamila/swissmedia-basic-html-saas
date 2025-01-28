@@ -8,6 +8,8 @@ In this project you will find:
 - Deployed at  https://riboldicamila.github.io/swissmedia-basic-html-saas/ (git Pages)
 
 
+<br>
+
 | Libraries & Technologies being used |
 | ----------------------------------- |
 | HTML                              |
