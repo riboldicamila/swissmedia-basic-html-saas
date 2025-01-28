@@ -1,6 +1,6 @@
-# SwissMedia WebPage
+# 📱 SwissMedia WebPage
 
-### Description:
+### 💭 Description:
 
 In this project you will find:
 - A website using html and css, where I played around with saas, flexbox and general frontend concepts.
